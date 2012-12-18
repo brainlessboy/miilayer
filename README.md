@@ -33,3 +33,10 @@ structure more stable.
 
 6) browse through all the layers and correct them manually by using the black or white collor to paint on the layers
 note that after you edit a layer you need to save it by pressing save on the bottom
+
+
+Roadmap:
+- add OnionSkin to see lower and upper layers
+- add validation to discover floating layers or layer parts
+- generation of automatic more complex supporting structures
+- 3D preview mode to validate structrues visually (already experimental)
