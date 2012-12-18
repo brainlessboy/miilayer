@@ -47,7 +47,6 @@ public class mii extends JFrame implements ActionListener {
         setVisible(true);
 
         // text output
-        JPanel textpanel = new JPanel();
         JTextPane messages = new JTextPane();
         messages.setBackground(Color.DARK_GRAY);
         messages.setForeground(Color.white);
@@ -57,22 +56,19 @@ public class mii extends JFrame implements ActionListener {
         JScrollPane messageScroller = new JScrollPane(messages);
         messageScroller.setAutoscrolls(true);
         messageScroller.setWheelScrollingEnabled(true);
-
-        textpanel.add(messageScroller);
+        ///
 
         //text pan
-        JPanel textpanelx = new JPanel();
         JTextPane messagesx = new JTextPane();
-        messagesx.setBackground(Color.DARK_GRAY);
-        messagesx.setForeground(Color.white);
+        messagesx.setBackground(Color.BLUE);
+        messagesx.setForeground(Color.yellow);
         messagesx.setPreferredSize(new Dimension(350, 480));
         messagesx.setEditable(false);
 
         JScrollPane messageScrollerx = new JScrollPane(messagesx);
         messageScrollerx.setAutoscrolls(true);
         messageScrollerx.setWheelScrollingEnabled(true);
-
-        textpanelx.add(messageScrollerx);
+        ///
 
 
         miicraft.setMessages(messages);
@@ -80,6 +76,8 @@ public class mii extends JFrame implements ActionListener {
         miicraft.setSize(768, 480);
 
         miimodel.setMessages(messagesx);
+        miimodel.setVisible(true);
+        miimodel.setSize(768, 480);
 
         //menue
 
@@ -148,11 +146,11 @@ public class mii extends JFrame implements ActionListener {
 
             public void actionPerformed(ActionEvent e) {
 
-                miicraft.getCurrentImage().getGraphics().clearRect(0, 0, miicraft.getCurrentImage().getWidth(), miicraft.getCurrentImage().getHeight());
+                miimodel.getCurrentImage().getGraphics().clearRect(0, 0, miimodel.getCurrentImage().getWidth(), miimodel.getCurrentImage().getHeight());
 
-                Reconstruct.orbitX(miicraft.getVoxels());
-                Reconstruct.project(miicraft.getCurrentImage(), miicraft.getVoxels());
-                miicraft.repaint();
+                Reconstruct.orbitX(miimodel.getVoxels());
+                Reconstruct.project(miimodel.getCurrentImage(), miimodel.getVoxels());
+                miimodel.repaint();
             }
         });
         JButton orbitY = new JButton("orbitY");
@@ -160,11 +158,11 @@ public class mii extends JFrame implements ActionListener {
 
             public void actionPerformed(ActionEvent e) {
 
-                miicraft.getCurrentImage().getGraphics().clearRect(0, 0, miicraft.getCurrentImage().getWidth(), miicraft.getCurrentImage().getHeight());
+                miimodel.getCurrentImage().getGraphics().clearRect(0, 0, miimodel.getCurrentImage().getWidth(), miimodel.getCurrentImage().getHeight());
 
-                Reconstruct.orbitY(miicraft.getVoxels());
-                Reconstruct.project(miicraft.getCurrentImage(), miicraft.getVoxels());
-                miicraft.repaint();
+                Reconstruct.orbitY(miimodel.getVoxels());
+                Reconstruct.project(miimodel.getCurrentImage(), miimodel.getVoxels());
+                miimodel.repaint();
             }
         });
 
@@ -182,12 +180,12 @@ public class mii extends JFrame implements ActionListener {
         JPanel layers = new JPanel(new BorderLayout());
         layers.add(BorderLayout.PAGE_END, controllButtonsA);
         layers.add(BorderLayout.CENTER, miicraft);
-        layers.add(BorderLayout.LINE_START, textpanel);
+        layers.add(BorderLayout.LINE_START, messageScroller);
 
         JPanel threedee = new JPanel(new BorderLayout());
         threedee.add(BorderLayout.PAGE_END, controllButtonsB);
         threedee.add(BorderLayout.CENTER, miimodel);
-        threedee.add(BorderLayout.LINE_START, textpanelx);
+        threedee.add(BorderLayout.LINE_START, messageScrollerx);
 
         JTabbedPane tabs = new JTabbedPane();
         tabs.add("layers", layers);

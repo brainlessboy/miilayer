@@ -96,7 +96,7 @@ public class MiicraftImager extends JPanel {
 
     public void initiateImage() {
 
-        
+
         File file = new File(directory);
         listFilesForFolder(file);
         currentImage = getLayer(0);

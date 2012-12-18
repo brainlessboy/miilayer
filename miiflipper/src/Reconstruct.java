@@ -113,8 +113,8 @@ public class Reconstruct implements Runnable {
 
             try {
 
-                float x = eye.z * (voxel.x - eye.x) / (eye.z + voxel.z) + eye.x;
-                float y = eye.z * (voxel.y - eye.y) / (eye.z + voxel.z) + eye.y;
+                float x = eye.z * (voxel.x - eye.x + 200) / (eye.z + (voxel.z + 400)) + eye.x;
+                float y = eye.z * (voxel.y - eye.y + 200) / (eye.z + (voxel.z + 400)) + eye.y;
                 if (x > 0 && x < w && y > 0 && y < h) img.setRGB((int) x, (int) y, white);
 
             } catch (Exception e) {
