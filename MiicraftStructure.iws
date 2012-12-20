@@ -80,7 +80,7 @@
       <file leaf-file-name="MiicraftImager.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/miiflipper/src/MiicraftImager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="98" column="38" selection-start="2668" selection-end="2668" vertical-scroll-proportion="1.2944607">
+            <state line="98" column="38" selection-start="2660" selection-end="2660" vertical-scroll-proportion="0.017492712">
               <folding />
             </state>
           </provider>
@@ -89,7 +89,16 @@
       <file leaf-file-name="MiicraftModel.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/miiflipper/src/MiicraftModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="13" selection-start="355" selection-end="355" vertical-scroll-proportion="-0.8659058">
+            <state line="12" column="13" selection-start="355" selection-end="355" vertical-scroll-proportion="0.017118402">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mii.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/miiflipper/src/mii.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="13" selection-start="278" selection-end="278" vertical-scroll-proportion="0.17492712">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -97,13 +106,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mii.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/miiflipper/src/mii.java">
+      <file leaf-file-name="build.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/miiflipper/build.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="189" column="56" selection-start="5968" selection-end="5968" vertical-scroll-proportion="0.28279883">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="56" column="54" selection-start="2012" selection-end="2012" vertical-scroll-proportion="0.8208955">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.properties" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/miiflipper/build.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="77" selection-start="153" selection-end="153" vertical-scroll-proportion="0.017118402">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -111,7 +127,7 @@
       <file leaf-file-name="Reconstruct.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/miiflipper/src/Reconstruct.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="11" selection-start="580" selection-end="580" vertical-scroll-proportion="-0.7703281">
+            <state line="23" column="11" selection-start="580" selection-end="580" vertical-scroll-proportion="0.017118402">
               <folding />
             </state>
           </provider>
@@ -196,25 +212,7 @@
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:/Users/oliverbrupbacher/MiiCraft/MiicraftStructure/miiflipper" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="MiicraftStructure" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="miiflipper" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:/Users/oliverbrupbacher/MiiCraft/MiicraftStructure/miiflipper" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:/Users/oliverbrupbacher/MiiCraft/MiicraftStructure/miiflipper/src" />
+          <option name="myItemId" value="PsiDirectory:/Users/oliverbrupbacher/Documents/Miicraft/miilayer/miiflipper" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
       </PATH>
@@ -252,35 +250,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.mii">
-    <configuration default="true" type="JUnit" factoryName="JUnit" enabled="false" merge="false">
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="ADDITIONAL_CLASS_PATH" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="wholeProject" />
-      </option>
-      <envs />
-      <method>
-        <option name="Make" value="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG" enabled="false" merge="false">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -321,6 +290,35 @@
       <option name="VM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit" enabled="false" merge="false">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="ADDITIONAL_CLASS_PATH" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <envs />
+      <method>
+        <option name="Make" value="true" />
+      </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application" enabled="false" merge="false">
       <option name="MAIN_CLASS_NAME" />
@@ -424,7 +422,7 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18462643" order="3" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="8" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297414" order="3" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" order="1" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24946082" order="1" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="1" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39946738" order="3" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="8" />
@@ -436,7 +434,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" order="0" />
       <window_info id="Maven projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
       <window_info id="Module Dependencies" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24946082" order="0" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18547808" order="0" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="8" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" order="2" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" order="6" />
@@ -505,6 +503,14 @@
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
+    <buildFile url="file://$PROJECT_DIR$/miiflipper/build.xml">
+      <antCommandLine value="" />
+      <runInBackground value="true" />
+      <targetFilters />
+      <treeView value="true" />
+      <verbose value="true" />
+      <viewClosedWhenNoErrors value="false" />
+    </buildFile>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/miiflipper/src/Point.java">
@@ -535,6 +541,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/miiflipper/src/MiicraftImager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="98" column="38" selection-start="2660" selection-end="2660" vertical-scroll-proportion="0.017492712">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miiflipper/src/MiicraftModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="13" selection-start="355" selection-end="355" vertical-scroll-proportion="0.017118402">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miiflipper/src/Reconstruct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="11" selection-start="580" selection-end="580" vertical-scroll-proportion="0.017118402">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/miiflipper/src/Voxel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="25" selection-start="390" selection-end="390" vertical-scroll-proportion="0.32524964">
@@ -542,35 +569,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/miiflipper/src/Reconstruct.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="11" selection-start="580" selection-end="580" vertical-scroll-proportion="-0.7703281">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/miiflipper/src/MiicraftModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="13" selection-start="355" selection-end="355" vertical-scroll-proportion="-0.8659058">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/miiflipper/src/MiicraftImager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="38" selection-start="2668" selection-end="2668" vertical-scroll-proportion="1.2944607">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/miiflipper/src/mii.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="189" column="56" selection-start="5968" selection-end="5968" vertical-scroll-proportion="0.28279883">
+        <state line="10" column="13" selection-start="278" selection-end="278" vertical-scroll-proportion="0.17492712">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miiflipper/build.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="77" selection-start="153" selection-end="153" vertical-scroll-proportion="0.017118402">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miiflipper/build.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="54" selection-start="2012" selection-end="2012" vertical-scroll-proportion="0.8208955">
+          <folding />
         </state>
       </provider>
     </entry>

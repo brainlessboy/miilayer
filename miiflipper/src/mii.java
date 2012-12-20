@@ -89,6 +89,8 @@ public class mii extends JFrame implements ActionListener {
         a.addSeparator();
         a.add(menuitem("Travel UP"));
         a.add(menuitem("Travel DOWN"));
+        a.addSeparator();
+        a.add(menuitem("Generate Structure"));
         menubar.add(a);
 
         JMenu b = new JMenu("Model");

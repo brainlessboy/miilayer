@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<project name="Miicraft Layer Painter" default="jar" basedir=".">
+
+    <property name="src.home" value="${basedir}/src"/>
+    <property name="build.home" value="${basedir}/build"/>
+
+    <property file="build.properties"/>
+
+    <path id="compile.classpath">
+        <fileset dir="${basedir}/lib">
+            <include name="**/*.jar"/>
+            <include name="**/*.zip"/>
+        </fileset>
+    </path>
+
+    <target name="clean">
+        <delete dir="${build.home}"/>
+    </target>
+
+    <target name="prepare">
+        <tstamp/>
+        <mkdir dir="${build.home}"/>
+        <mkdir dir="${build.home}"/>
+        <mkdir dir="${build.home}/META-INF"/>
+        <copy todir="${build.home}">
+            <fileset dir="${src.home}"/>
+        </copy>
+    </target>
+
+    <target name="compile" depends="clean,prepare">
+        <javac encoding="ISO-8859-1" srcdir="${src.home}" destdir="${build.home}" source="${compile.source}"
+               target="${compile.target}" debug="${compile.debug}" deprecation="${compile.deprecation}"
+               optimize="${compile.optimize}">
+            <classpath refid="compile.classpath"/>
+        </javac>
+    </target>
+
+    <target name="jar" depends="compile">
+        <unjar dest="${build.home}">
+            <fileset dir="${basedir}/lib">
+                <include name="**/*.jar"/>
+                <include name="**/*.zip"/>
+                <include name="**/*.dll"/>
+            </fileset>
+        </unjar>
+        <manifest file="${build.home}/META-INF/MANIFEST.MF">
+            <attribute name="Main-Class" value="mii"/>
+        </manifest>
+        <jar destfile="${build.home}/MiiLayer.jar" manifest="${build.home}/META-INF/MANIFEST.MF">
+            <fileset dir="${build.home}"/>
+        </jar>
+
+        <zip destfile="temp-jar-file.jar">
+            <zipfileset src="${build.home}/MiiLayer.jar" excludes="META-INF/*.RSA, META-INF/*.DSA, META-INF/*.SF"/>
+        </zip>
+        <move file="temp-jar-file.jar" tofile="${build.home}/MiiLayer.jar"/>
+
+    </target>
+    
+</project>

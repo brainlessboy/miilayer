@@ -127,7 +127,7 @@ public class MiicraftModel extends JPanel {
         StyledDocument doc = (StyledDocument) textPane.getDocument();
         try {
             doc.insertString(doc.getLength(), message, null);
-            doc.insertString(doc.getLength(), "\n", null);            
+            doc.insertString(doc.getLength(), "\n", null);
         } catch (BadLocationException e) {
             e.printStackTrace();
         }

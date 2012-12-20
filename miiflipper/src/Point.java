@@ -47,7 +47,7 @@ public class Point {
     public boolean inside(int x, int y, int width) {
 
         Rectangle r = new Rectangle(this.x - (width / 2), this.y - (width / 2), width, width);
-        return r.inside(x,y);
+        return r.inside(x, y);
 
     }
 }
