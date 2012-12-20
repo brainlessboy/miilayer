@@ -34,8 +34,17 @@ structure more stable.
 6) browse through all the layers and correct them manually by using the black or white collor to paint on the layers
 note that after you edit a layer you need to save it by pressing save on the bottom
 
+Usage:
 
-Roadmap:
+download the MiiLayer.jar and doublecklick. in most cases this should start the layer editor
+if the editor does not start, type
+
+java -jar MiiLayer.jar mii 
+
+this will start the editor for sure :-)
+
+
+Future Possible Roadmap:
 - add OnionSkin to see lower and upper layers
 - add validation to discover floating layers or layer parts
 - generation of automatic more complex supporting structures
