@@ -8,15 +8,14 @@ import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.util.Properties;
 
-public class mii extends JFrame implements ActionListener {
+public class MiiLayer extends JFrame implements ActionListener {
 
     private MiicraftImager miicraft = new MiicraftImager(null);
     private MiicraftModel miimodel = new MiicraftModel();
 
     private String path;
 
-
-    public mii() {
+    public MiiLayer() {
 
         try {
 
@@ -91,6 +90,7 @@ public class mii extends JFrame implements ActionListener {
         a.add(menuitem("Travel DOWN"));
         a.addSeparator();
         a.add(menuitem("Generate Structure"));
+        a.add(menuitem("Generate Structure Steps"));
         menubar.add(a);
 
         JMenu b = new JMenu("Model");
@@ -142,6 +142,24 @@ public class mii extends JFrame implements ActionListener {
             }
         });
 
+        // save a single layer
+        JButton clearAllPoints = new JButton("clearPoints");
+        clearAllPoints.addActionListener(new ActionListener() {
+
+            public void actionPerformed(ActionEvent e) {
+                miicraft.clearPoints();
+            }
+        });
+
+        // save a single layer
+        JButton clearAllStrokes = new JButton("clearStrokes");
+        clearAllStrokes.addActionListener(new ActionListener() {
+
+            public void actionPerformed(ActionEvent e) {
+                miicraft.clearStrokes();
+            }
+        });
+
         // orbit 3d
         JButton orbitX = new JButton("orbitX");
         orbitX.addActionListener(new ActionListener() {
@@ -174,6 +192,8 @@ public class mii extends JFrame implements ActionListener {
         controllButtonsA.add(white);
         controllButtonsA.add(black);
         controllButtonsA.add(save);
+        controllButtonsA.add(clearAllPoints);
+        controllButtonsA.add(clearAllStrokes);
 
         JPanel controllButtonsB = new JPanel();
         controllButtonsB.add(orbitX);
@@ -210,7 +230,7 @@ public class mii extends JFrame implements ActionListener {
 
     public static void main(String[] params) {
 
-        new mii();
+        new MiiLayer();
     }
 
     public void actionPerformed(ActionEvent event) {
@@ -248,6 +268,11 @@ public class mii extends JFrame implements ActionListener {
         } else if (event.getActionCommand().equals("Generate Structure")) {
 
             Thread t = new Thread(new Generator(miicraft));
+            t.start();
+
+        } else if (event.getActionCommand().equals("Generate Structure Steps")) {
+
+            Thread t = new Thread(new GeneratorStep(miicraft));
             t.start();
 
         } else if (event.getActionCommand().equals("Reconstruct Model")) {

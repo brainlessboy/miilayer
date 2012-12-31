@@ -45,7 +45,7 @@
             </fileset>
         </unjar>
         <manifest file="${build.home}/META-INF/MANIFEST.MF">
-            <attribute name="Main-Class" value="mii"/>
+            <attribute name="Main-Class" value="MiiLayer"/>
         </manifest>
         <jar destfile="${build.home}/MiiLayer.jar" manifest="${build.home}/META-INF/MANIFEST.MF">
             <fileset dir="${build.home}"/>
