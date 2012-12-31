@@ -4,6 +4,7 @@
 
     <property name="src.home" value="${basedir}/src"/>
     <property name="build.home" value="${basedir}/build"/>
+    <property name="jar.home" value="${basedir}"/>
 
     <property file="build.properties"/>
 
@@ -16,6 +17,8 @@
 
     <target name="clean">
         <delete dir="${build.home}"/>
+        <delete dir="${basedir}/miiflipper"/>
+        <delete file="${basedir}/temp-jar-file.jar"/>
     </target>
 
     <target name="prepare">
@@ -54,8 +57,9 @@
         <zip destfile="temp-jar-file.jar">
             <zipfileset src="${build.home}/MiiLayer.jar" excludes="META-INF/*.RSA, META-INF/*.DSA, META-INF/*.SF"/>
         </zip>
-        <move file="temp-jar-file.jar" tofile="${build.home}/MiiLayer.jar"/>
 
+        <move file="${build.home}/MiiLayer.jar" tofile="${jar.home}/../MiiLayer.jar"/>
+        
     </target>
     
 </project>

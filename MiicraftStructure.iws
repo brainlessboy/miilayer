@@ -77,19 +77,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MiicraftImager.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="MiicraftImager.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/miiflipper/src/MiicraftImager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="204" column="16" selection-start="5610" selection-end="5610" vertical-scroll-proportion="0.5253456">
+            <state line="204" column="16" selection-start="5610" selection-end="5610" vertical-scroll-proportion="0.6635945">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MiicraftModel.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/miiflipper/src/MiicraftModel.java">
+      <file leaf-file-name="build.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/miiflipper/build.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="13" selection-start="355" selection-end="355" vertical-scroll-proportion="0.026726058">
+            <state line="19" column="26" selection-start="592" selection-end="592" vertical-scroll-proportion="0.54545456">
               <folding />
             </state>
           </provider>
@@ -98,7 +98,7 @@
       <file leaf-file-name="build.properties" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/miiflipper/build.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="77" selection-start="153" selection-end="153" vertical-scroll-proportion="0.026726058">
+            <state line="0" column="63" selection-start="63" selection-end="63" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -116,10 +116,8 @@
       <file leaf-file-name="Stroke.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/miiflipper/src/Stroke.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="117" column="0" selection-start="2477" selection-end="2477" vertical-scroll-proportion="1.078341">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="117" column="0" selection-start="2477" selection-end="2477" vertical-scroll-proportion="1.0345622">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -127,7 +125,7 @@
       <file leaf-file-name="MiiLayer.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/miiflipper/src/MiiLayer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="274" column="51" selection-start="8570" selection-end="8570" vertical-scroll-proportion="7.354839">
+            <state line="274" column="51" selection-start="8570" selection-end="8570" vertical-scroll-proportion="1.0898618">
               <folding />
             </state>
           </provider>
@@ -403,7 +401,7 @@
       <ConfigurationWrapper RunnerId="Run" />
     </configuration>
     <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Application.mii" />
+      <item index="0" class="java.lang.String" itemvalue="Application.MiiLayer" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -555,13 +553,6 @@
     </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/miiflipper/build.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="36" selection-start="612" selection-end="612" vertical-scroll-proportion="0.27014926">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/miiflipper/src/Reconstruct.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="11" selection-start="580" selection-end="580" vertical-scroll-proportion="0.030456852">
@@ -572,13 +563,6 @@
     <entry file="file://$PROJECT_DIR$/miiflipper/src/Voxel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="25" selection-start="390" selection-end="390" vertical-scroll-proportion="0.5786802">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/miiflipper/build.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="77" selection-start="153" selection-end="153" vertical-scroll-proportion="0.026726058">
           <folding />
         </state>
       </provider>
@@ -597,9 +581,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/miiflipper/src/Stroke.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="117" column="0" selection-start="2477" selection-end="2477" vertical-scroll-proportion="1.0345622">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/miiflipper/src/MiiLayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="274" column="51" selection-start="8570" selection-end="8570" vertical-scroll-proportion="7.354839">
+        <state line="274" column="51" selection-start="8570" selection-end="8570" vertical-scroll-proportion="1.0898618">
           <folding />
         </state>
       </provider>
@@ -607,6 +598,13 @@
     <entry file="file://$PROJECT_DIR$/miiflipper/src/Generator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="25" selection-start="542" selection-end="542" vertical-scroll-proportion="0.6414254">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miiflipper/src/GeneratorStep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="24" selection-start="588" selection-end="588" vertical-scroll-proportion="0.6948775">
           <folding />
         </state>
       </provider>
@@ -625,25 +623,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/miiflipper/src/Stroke.java">
+    <entry file="file://$PROJECT_DIR$/miiflipper/src/MiicraftImager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="117" column="0" selection-start="2477" selection-end="2477" vertical-scroll-proportion="1.078341">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/miiflipper/src/GeneratorStep.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="24" selection-start="588" selection-end="588" vertical-scroll-proportion="0.6948775">
+        <state line="204" column="16" selection-start="5610" selection-end="5610" vertical-scroll-proportion="0.6635945">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/miiflipper/src/MiicraftImager.java">
+    <entry file="file://$PROJECT_DIR$/miiflipper/build.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="204" column="16" selection-start="5610" selection-end="5610" vertical-scroll-proportion="0.5253456">
+        <state line="0" column="63" selection-start="63" selection-end="63" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miiflipper/build.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="26" selection-start="592" selection-end="592" vertical-scroll-proportion="0.54545456">
           <folding />
         </state>
       </provider>
