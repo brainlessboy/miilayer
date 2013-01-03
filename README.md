@@ -54,7 +54,9 @@ this will start the editor for sure :-)
 
 --
 
-##Software Update 1.1.2013##
+#Updates#
+
+*1.1.2013*
 * Paint Strokes can be propagated either on each layer or every 10th layer to support structure painting
 * add clearPoints and clearStrokes to clear all Points or Strokes from the stack (Points and Strokes are kept active until Cleared)
 
@@ -63,7 +65,7 @@ and will scribbel in all your layers
 
 --
 
-##Future Roadmap:##
+#Future Roadmap:#
 I will continure working on this until Miicraft will add some features to deal with supporting structures
 
 * add OnionSkin to see lower and upper layers
