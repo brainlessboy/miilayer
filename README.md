@@ -1,23 +1,27 @@
-miilayer
-========
+Miicraft MiiLayer
+=================
 
 Miicraft printer use multiple layers to print a 3d model from resin by curing the resin with UV light
 each layer/slice of the model is a black and white image that can be edited manually.
 
 each layer is approximately 100 micron and requries 500 layer for a 5cm model.
 
-in some cases it is required to edit the layers for minor corrections and to add supporting structures
+in some cases it is required to edit the layers for minor corrections and to add supporting structures by painting each layer
 
 This simple software offers the possibility to add supporting structures and to edit simgle images rapidly
 
 features:
+---------
 - manualy position supporting points
 - menu functions 'generate structures' automatically generates the structures in all layers downward
-- paint function to correct layers manually
+- paint function to correct layers manually with color balck or white
+- painted strokes can be automatically propagated to lower layers with the function 'generate structures'
+- 'generate structures step' allows to propagate strokes only on every 10th layer
 - move up and down through layers
 - (experimental) 3d model reconstruction according to layer images
 
 how to use:
+===========
 
 1) choose the directory where the image layers of your model are located
 2) in the first tab 'layer' use travel up and down to view any layer (starts from the bottom)
@@ -26,7 +30,9 @@ note: only place a point on the layer where the structure should start
 4) continue adding supports until you feel ready
 5) choose from the files menue 'Generate Structure' this will automatically paint the points in all layers to the very bottom layer
 
-note that 'Generate Structure' cannot be undone!
+note:
+-----
+'Generate Structure' cannot be undone!
 
 if you have tall structures then it is recommended to connect some of the supporting dots on every 10th layer to make the supportin
 structure more stable.
