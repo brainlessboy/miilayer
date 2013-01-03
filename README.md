@@ -12,7 +12,7 @@ This simple software offers the possibility to add supporting structures and to 
 
 features:
 - manualy position supporting points
-- menu functions 'generate structures' automatically generates the structures in all layers downard
+- menu functions 'generate structures' automatically generates the structures in all layers downward
 - paint function to correct layers manually
 - move up and down through layers
 - (experimental) 3d model reconstruction according to layer images
@@ -30,22 +30,37 @@ note that 'Generate Structure' cannot be undone!
 
 if you have tall structures then it is recommended to connect some of the supporting dots on every 10th layer to make the supportin
 structure more stable.
+Note: you can paint a stroke at the top layer where your structure starts and choose the GenerateStructure Step, the stroke you just 
+painted will be reproduced on every 10th layer automaticall. Caution to clear the stroke after this is done ... or clear all strokes
+before painting new ones :-)
 
-6) browse through all the layers and correct them manually by using the black or white collor to paint on the layers
+6) browse through all the layers and correct them manually by using the black or white color to paint on the layers
 note that after you edit a layer you need to save it by pressing save on the bottom
+also don't forget to clear strokes before generation of structures
 
-Usage:
+How to Start MiiLayer
+=====================
 
 download the MiiLayer.jar and doublecklick. in most cases this should start the layer editor
 if the editor does not start, type
 
-java -jar MiiLayer.jar mii 
+java -jar MiiLayer.jar MiiLayer 
 
 this will start the editor for sure :-)
 
+Software Update 1.1.2013
+=========================
+- Paint Strokes are now remembered and can be propagated either on each layer or every 10th layer to support structure painting
+- add clearPoints and clearStrokes to clear all Points or Strokes
+Note: allways make sure you clear Strokes before you hit the Generate Structure or Genereate Structure Step, these cannot be undone
+and will scribbel in all your layers
 
-Future Possible Roadmap:
+Future Roadmap: (things I might add if MiiCraft is not enhancing there software)
+================================================================================
 - add OnionSkin to see lower and upper layers
 - add validation to discover floating layers or layer parts
 - generation of automatic more complex supporting structures
 - 3D preview mode to validate structrues visually (already experimental)
+- analizing model for fully automatic structure generation (no idea so far how this should work but it would be cool)
+- undo Generate Structure Function ... (this would actually just require to copy image to a tmp directory)
+- Resolution independent (available for other resin printers)
