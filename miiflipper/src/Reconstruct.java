@@ -42,7 +42,7 @@ public class Reconstruct implements Runnable {
         for (int z = 0; z < max_z; z++) {
 
             BufferedImage layer = miicraftmodel.getLayer(z);
-            miicraftmodel.insertMessage("recon layer: " + z);
+            miicraftmodel.insertMessageNOBR("" + z);
 
             for (int y = 1; y < max_y - 1; y++) {
 

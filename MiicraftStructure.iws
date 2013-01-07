@@ -77,91 +77,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="Reconstruct.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/miiflipper/src/Reconstruct.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="76" column="13" selection-start="2066" selection-end="2066" vertical-scroll-proportion="1.2667618">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GenerateStructure.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/miiflipper/src/GenerateStructure.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="36" selection-start="545" selection-end="545" vertical-scroll-proportion="0.38483965">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="MiicraftImager.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/miiflipper/src/MiicraftImager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="204" column="16" selection-start="5610" selection-end="5610" vertical-scroll-proportion="0.017492712">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/miiflipper/build.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="26" selection-start="592" selection-end="592" vertical-scroll-proportion="0.14477612">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.properties" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/miiflipper/build.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="63" selection-start="63" selection-end="63" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Point.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/miiflipper/src/Point.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="13" selection-start="204" selection-end="204" vertical-scroll-proportion="0.15406562">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Stroke.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/miiflipper/src/Stroke.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="117" column="0" selection-start="2477" selection-end="2477" vertical-scroll-proportion="0.65451896">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MiiLayer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/miiflipper/src/MiiLayer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="274" column="51" selection-start="8570" selection-end="8570" vertical-scroll-proportion="0.6895044">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Generator.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/miiflipper/src/Generator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="25" selection-start="542" selection-end="542" vertical-scroll-proportion="0.41084164">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GeneratorStep.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/miiflipper/src/GeneratorStep.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="24" selection-start="588" selection-end="588" vertical-scroll-proportion="0.44507846">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TravelDown.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/miiflipper/src/TravelDown.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="36" selection-start="504" selection-end="504" vertical-scroll-proportion="0.37660486">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TravelUp.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/miiflipper/src/TravelUp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="51" selection-start="515" selection-end="515" vertical-scroll-proportion="0.37660486">
+            <state line="150" column="39" selection-start="4056" selection-end="4056" vertical-scroll-proportion="0.47521865">
               <folding />
             </state>
           </provider>
@@ -381,7 +320,7 @@
     </configuration>
     <configuration default="false" name="MiiLayer" type="Application" factoryName="Application" enabled="false" merge="false">
       <option name="MAIN_CLASS_NAME" value="MiiLayer" />
-      <option name="VM_PARAMETERS" value="" />
+      <option name="VM_PARAMETERS" value="-Xmx1024M" />
       <option name="PROGRAM_PARAMETERS" value="/Users/oliverbrupbacher/Dropbox/JSCAD/miicraft/cee-spray-reposition" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -399,6 +338,9 @@
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
+      <method>
+        <option name="Make" value="true" />
+      </method>
     </configuration>
     <list size="1">
       <item index="0" class="java.lang.String" itemvalue="Application.MiiLayer" />
@@ -553,13 +495,6 @@
     </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/miiflipper/src/Reconstruct.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="11" selection-start="580" selection-end="580" vertical-scroll-proportion="0.030456852">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/miiflipper/src/Voxel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="25" selection-start="390" selection-end="390" vertical-scroll-proportion="0.5786802">
@@ -567,16 +502,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/miiflipper/src/MiicraftModel.java">
+    <entry file="file://$PROJECT_DIR$/miiflipper/build.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="13" selection-start="355" selection-end="355" vertical-scroll-proportion="0.026726058">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/miiflipper/src/MiicraftImager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="204" column="16" selection-start="5610" selection-end="5610" vertical-scroll-proportion="0.017492712">
+        <state line="19" column="26" selection-start="592" selection-end="592" vertical-scroll-proportion="0.14477612">
           <folding />
         </state>
       </provider>
@@ -602,20 +530,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/miiflipper/src/MiiLayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="274" column="51" selection-start="8570" selection-end="8570" vertical-scroll-proportion="0.6895044">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/miiflipper/src/Generator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="25" selection-start="542" selection-end="542" vertical-scroll-proportion="0.41084164">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/miiflipper/src/GeneratorStep.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="24" selection-start="588" selection-end="588" vertical-scroll-proportion="0.44507846">
@@ -637,10 +551,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/miiflipper/build.xml">
+    <entry file="jar:///System/Library/Frameworks/JavaVM.framework/Versions/1.6.0/Home/../Classes/classes.jar!/java/util/ArrayList.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="26" selection-start="592" selection-end="592" vertical-scroll-proportion="0.14477612">
+        <state line="40" column="19" selection-start="1428" selection-end="1428" vertical-scroll-proportion="0.49271137">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miiflipper/src/Reconstruct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="13" selection-start="2066" selection-end="2066" vertical-scroll-proportion="1.2667618">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miiflipper/src/MiicraftModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="138" column="55" selection-start="3535" selection-end="3535" vertical-scroll-proportion="2.1911554">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miiflipper/src/Generator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="53" selection-start="409" selection-end="409" vertical-scroll-proportion="0.30813125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miiflipper/src/MiiLayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="13" selection-start="278" selection-end="278" vertical-scroll-proportion="-4.1078715">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miiflipper/src/MiicraftImager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="150" column="39" selection-start="4056" selection-end="4056" vertical-scroll-proportion="0.47521865">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miiflipper/src/GenerateStructure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="36" selection-start="545" selection-end="545" vertical-scroll-proportion="0.38483965">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

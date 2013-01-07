@@ -91,6 +91,8 @@ public class MiiLayer extends JFrame implements ActionListener {
         a.addSeparator();
         a.add(menuitem("Generate Structure"));
         a.add(menuitem("Generate Structure Steps"));
+        a.addSeparator();
+        a.add(menuitem("Calculate and Generate"));
         menubar.add(a);
 
         JMenu b = new JMenu("Model");
@@ -273,6 +275,11 @@ public class MiiLayer extends JFrame implements ActionListener {
         } else if (event.getActionCommand().equals("Generate Structure Steps")) {
 
             Thread t = new Thread(new GeneratorStep(miicraft));
+            t.start();
+
+        } else if (event.getActionCommand().equals("Calculate and Generate")) {
+
+            Thread t = new Thread(new GenerateStructure(miicraft));
             t.start();
 
         } else if (event.getActionCommand().equals("Reconstruct Model")) {

@@ -103,6 +103,16 @@ public class MiicraftImager extends JPanel {
         });
     }
 
+    public void addPoint(Point point) {
+
+        if (point == null) {
+            return;
+        }
+
+        points.add(point);
+
+    }
+
     public void initiateImage() {
 
 
@@ -135,7 +145,10 @@ public class MiicraftImager extends JPanel {
         }
 
         return null;
+    }
 
+    public void setLayer(int index) {
+        currentImage = getLayer(index);
     }
 
     public void loadImage(File imageFile) {
@@ -352,8 +365,17 @@ public class MiicraftImager extends JPanel {
         } catch (BadLocationException e) {
             e.printStackTrace();
         }
+    }
 
+    public void insertMessageNOBR(String message) {
 
+        StyledDocument doc = (StyledDocument) textPane.getDocument();
+        try {
+            doc.insertString(doc.getLength(), message, null);
+            doc.insertString(doc.getLength(), " ", null);
+        } catch (BadLocationException e) {
+            e.printStackTrace();
+        }
     }
 
     public ArrayList<File> getFiles() {

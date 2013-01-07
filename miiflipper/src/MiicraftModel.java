@@ -133,6 +133,17 @@ public class MiicraftModel extends JPanel {
         }
     }
 
+    public void insertMessageNOBR(String message) {
+
+        StyledDocument doc = (StyledDocument) textPane.getDocument();
+        try {
+            doc.insertString(doc.getLength(), message, null);
+            doc.insertString(doc.getLength(), " ", null);
+        } catch (BadLocationException e) {
+            e.printStackTrace();
+        }
+    }
+
     public ArrayList<File> getFiles() {
         return files;
     }
