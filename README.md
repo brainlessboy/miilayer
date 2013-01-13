@@ -32,6 +32,8 @@ note: only place a point on the layer where the structure should start
 note that after you edit a layer you need to save it by pressing save on the bottom
 also don't forget to clear strokes before generation of structures
 
+7. under the function Toggle FloodFill under Menu Tools will toggle Fill function. FloodFill will fill white color in closed areas.
+
 **note:**
 *Generate Structure* cannot be undone!
 
@@ -55,6 +57,9 @@ this will start the editor for sure :-)
 --
 
 #Updates#
+
+*12.1.2013*
+* FloodFill added
 
 *1.1.2013*
 * Paint Strokes can be propagated either on each layer or every 10th layer to support structure painting
