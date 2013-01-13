@@ -77,19 +77,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Reconstruct.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/miiflipper/src/Reconstruct.java">
+      <file leaf-file-name="MiicraftImager.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/miiflipper/src/MiicraftImager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="13" selection-start="2066" selection-end="2066" vertical-scroll-proportion="1.2667618">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GenerateStructure.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/miiflipper/src/GenerateStructure.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="36" selection-start="545" selection-end="545" vertical-scroll-proportion="0.38483965">
+            <state line="227" column="44" selection-start="6150" selection-end="6150" vertical-scroll-proportion="1.1382488">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -97,10 +88,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MiicraftImager.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/miiflipper/src/MiicraftImager.java">
+      <file leaf-file-name="MiiLayer.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/miiflipper/src/MiiLayer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="150" column="39" selection-start="4056" selection-end="4056" vertical-scroll-proportion="0.47521865">
+            <state line="305" column="31" selection-start="9677" selection-end="9677" vertical-scroll-proportion="1.3317972">
               <folding />
             </state>
           </provider>
@@ -404,13 +395,13 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18462643" order="3" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="8" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297414" order="3" />
-      <window_info id="Ant Build" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24946082" order="1" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24946082" order="1" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288948" order="1" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39946738" order="3" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="8" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="8" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3262317" order="8" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3262317" order="8" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="7" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" order="1" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" order="0" />
@@ -558,13 +549,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/miiflipper/src/Reconstruct.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="13" selection-start="2066" selection-end="2066" vertical-scroll-proportion="1.2667618">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/miiflipper/src/MiicraftModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="138" column="55" selection-start="3535" selection-end="3535" vertical-scroll-proportion="2.1911554">
@@ -579,26 +563,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/miiflipper/src/MiiLayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="13" selection-start="278" selection-end="278" vertical-scroll-proportion="-4.1078715">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/miiflipper/src/MiicraftImager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="150" column="39" selection-start="4056" selection-end="4056" vertical-scroll-proportion="0.47521865">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/miiflipper/src/GenerateStructure.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="36" selection-start="545" selection-end="545" vertical-scroll-proportion="0.38483965">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miiflipper/src/Reconstruct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="13" selection-start="2066" selection-end="2066" vertical-scroll-proportion="1.2667618">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miiflipper/src/MiicraftImager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="227" column="44" selection-start="6150" selection-end="6150" vertical-scroll-proportion="1.1382488">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miiflipper/src/MiiLayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="305" column="31" selection-start="9677" selection-end="9677" vertical-scroll-proportion="1.3317972">
+          <folding />
         </state>
       </provider>
     </entry>

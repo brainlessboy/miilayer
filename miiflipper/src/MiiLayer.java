@@ -99,6 +99,10 @@ public class MiiLayer extends JFrame implements ActionListener {
         b.add(menuitem("Reconstruct Model"));
         menubar.add(b);
 
+        JMenu c = new JMenu("Tools");
+        c.add(menuitem("Toggle FloodFill"));
+        menubar.add(c);
+
 
         JButton up = new JButton("up");
         up.addActionListener(new ActionListener() {
@@ -290,6 +294,16 @@ public class MiiLayer extends JFrame implements ActionListener {
             miimodel.getCurrentImage().getGraphics().clearRect(0, 0, miimodel.getCurrentImage().getWidth(), miimodel.getCurrentImage().getHeight());
             Reconstruct.project(miimodel.getCurrentImage(), miimodel.getVoxels());
             miimodel.repaint();
+
+        } else if(event.getActionCommand().equals("Toggle FloodFill")){
+
+            if(miicraft.isFloodFill()){
+                miicraft.setFloodFill(false);
+            }else{
+                miicraft.setFloodFill(true);                
+            }
+
+            miicraft.repaint();
 
         }
     }

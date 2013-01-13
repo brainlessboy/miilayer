@@ -34,6 +34,8 @@ public class MiicraftImager extends JPanel {
 
     private Stroke currentStroke;
 
+    private boolean isFloodFill = false;
+
     public MiicraftImager(String directory) {
 
         if (directory != null && directory != "") {
@@ -54,20 +56,28 @@ public class MiicraftImager extends JPanel {
         addMouseListener(new MouseAdapter() {
             public void mouseClicked(MouseEvent e) {
 
-                if (points.size() > 0) {
-                    for (int i = 0; i < points.size(); i++) {
-                        Point point = points.get(i);
+                if (isFloodFill) {
 
-                        if (point.inside(e.getX(), e.getY(), structureWidth)) {
-                            points.remove(i);
-                            break;
-                        } else {
-                            points.add(new Point(e.getX(), e.getY(), index));
-                            break;
-                        }
-                    }
+                    floodFill(e.getX(), e.getY(), Color.BLACK, Color.WHITE);
+
                 } else {
-                    points.add(new Point(e.getX(), e.getY(), index));
+
+                    if (points.size() > 0) {
+                        for (int i = 0; i < points.size(); i++) {
+                            Point point = points.get(i);
+
+                            if (point.inside(e.getX(), e.getY(), structureWidth)) {
+                                points.remove(i);
+                                break;
+                            } else {
+                                points.add(new Point(e.getX(), e.getY(), index));
+                                break;
+                            }
+                        }
+                    } else {
+                        points.add(new Point(e.getX(), e.getY(), index));
+                    }
+
                 }
 
                 repaint();
@@ -210,6 +220,13 @@ public class MiicraftImager extends JPanel {
 
             g2.drawOval(point.getX() - (structureWidth / 2), point.getY() - (structureWidth / 2), structureWidth, structureWidth);
         }
+
+        // draw some info
+        if (isFloodFill()) {
+            g2.drawString("layer: " + index + " flood fill on", 20, 20);
+        } else {
+            g2.drawString("layer: " + index , 20, 20);
+        }
     }
 
     /**
@@ -348,6 +365,20 @@ public class MiicraftImager extends JPanel {
         }
     }
 
+    public void floodFill(int x, int y, Color targetColor, Color replacementColor) {
+
+        if (currentImage.getRGB(x, y) != targetColor.getRGB()) return;
+
+        currentImage.setRGB(x, y, replacementColor.getRGB());
+        floodFill(x - 1, y, targetColor, replacementColor);
+        floodFill(x + 1, y, targetColor, replacementColor);
+        floodFill(x, y - 1, targetColor, replacementColor);
+        floodFill(x, y + 1, targetColor, replacementColor);
+
+        return;
+    }
+
+
     public JTextPane getMessages() {
         return textPane;
     }
@@ -416,5 +447,13 @@ public class MiicraftImager extends JPanel {
 
     public void setIndex(int index) {
         this.index = index;
+    }
+
+    public boolean isFloodFill() {
+        return isFloodFill;
+    }
+
+    public void setFloodFill(boolean floodFill) {
+        isFloodFill = floodFill;
     }
 }
