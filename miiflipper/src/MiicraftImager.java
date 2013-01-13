@@ -9,6 +9,7 @@ import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Stack;
 
 public class MiicraftImager extends JPanel {
 
@@ -35,6 +36,7 @@ public class MiicraftImager extends JPanel {
     private Stroke currentStroke;
 
     private boolean isFloodFill = false;
+    private Stack fillStack = new Stack();
 
     public MiicraftImager(String directory) {
 
@@ -223,9 +225,11 @@ public class MiicraftImager extends JPanel {
 
         // draw some info
         if (isFloodFill()) {
+            g2.setColor(Color.red);
             g2.drawString("layer: " + index + " flood fill on", 20, 20);
         } else {
-            g2.drawString("layer: " + index , 20, 20);
+            g2.setColor(Color.red);
+            g2.drawString("layer: " + index, 20, 20);
         }
     }
 
@@ -367,13 +371,15 @@ public class MiicraftImager extends JPanel {
 
     public void floodFill(int x, int y, Color targetColor, Color replacementColor) {
 
-        if (currentImage.getRGB(x, y) != targetColor.getRGB()) return;
+        Stack<FloodFill> stack = new Stack();
 
-        currentImage.setRGB(x, y, replacementColor.getRGB());
-        floodFill(x - 1, y, targetColor, replacementColor);
-        floodFill(x + 1, y, targetColor, replacementColor);
-        floodFill(x, y - 1, targetColor, replacementColor);
-        floodFill(x, y + 1, targetColor, replacementColor);
+        FloodFill fill = new FloodFill(currentImage,stack,x,y,targetColor,replacementColor);
+        stack.push(fill);
+
+        while(!stack.isEmpty()){
+            FloodFill f = stack.pop();
+            f.fill();
+        }
 
         return;
     }
