@@ -224,6 +224,15 @@ public class MiiLayer extends JFrame implements ActionListener {
 
         miicraft.insertMessage("miiLayer designer ready ...");
 
+        setVisible(true);
+        //layers.setVisible(true);
+        //messages.setVisible(true);
+        //messagesx.setVisible(true);
+        //miicraft.setVisible(true);
+        //controllButtonsA.setVisible(true);
+        //threedee.setVisible(true);
+
+
         repaint();
 
     }
@@ -244,18 +253,32 @@ public class MiiLayer extends JFrame implements ActionListener {
         if (event.getActionCommand().equals("Open")) {
 
             JFrame f = new JFrame();
-            FileDialog fd = new FileDialog(f, "load", FileDialog.LOAD);
-            fd.setLocation(50, 50);
 
-            System.setProperty("apple.awt.fileDialogForDirectories", "true");
-            fd.setVisible(true);
-            System.setProperty("apple.awt.fileDialogForDirectories", "false");
+            String osName = System.getProperty("os.name");
+            if (osName.equalsIgnoreCase("mac os x")) {
 
-            miicraft.setDirectory(fd.getDirectory() + fd.getFile());
-            miicraft.initiateImage();
+                FileDialog chooser = new FileDialog(f, "Select Image Folder ", FileDialog.LOAD);
+                System.setProperty("apple.awt.fileDialogForDirectories", "true");
+                chooser.setVisible(true);
+                chooser.setLocation(50, 50);
 
-            miimodel.setDirectory(fd.getDirectory() + fd.getFile());
-            miimodel.initiateImage();
+                miicraft.setDirectory(chooser.getDirectory() + chooser.getFile());
+                miicraft.initiateImage();
+
+            } else {
+
+                JFileChooser chooser = new JFileChooser();
+                chooser.setDialogTitle("Select Image Folder");
+                chooser.setFileSelectionMode(chooser.DIRECTORIES_ONLY);
+
+                chooser.setVisible(true);
+                chooser.setLocation(50, 50);
+
+                miicraft.setDirectory(chooser.getSelectedFile().getName());
+                miicraft.initiateImage();
+
+            }
+
 
         } else if (event.getActionCommand().equals("Save Layer")) {
 
@@ -295,12 +318,12 @@ public class MiiLayer extends JFrame implements ActionListener {
             Reconstruct.project(miimodel.getCurrentImage(), miimodel.getVoxels());
             miimodel.repaint();
 
-        } else if(event.getActionCommand().equals("Toggle FloodFill")){
+        } else if (event.getActionCommand().equals("Toggle FloodFill")) {
 
-            if(miicraft.isFloodFill()){
+            if (miicraft.isFloodFill()) {
                 miicraft.setFloodFill(false);
-            }else{
-                miicraft.setFloodFill(true);                
+            } else {
+                miicraft.setFloodFill(true);
             }
 
             miicraft.repaint();
