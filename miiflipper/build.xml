@@ -61,5 +61,11 @@
         <move file="${build.home}/MiiLayer.jar" tofile="${jar.home}/../MiiLayer.jar"/>
         
     </target>
+        
+    <target name="make" depends="compile">
+        <delete dir="${build.home}"/>
+        <delete dir="${basedir}/miiflipper"/>
+        <delete file="${basedir}/temp-jar-file.jar"/>
+    </target>
     
 </project>
