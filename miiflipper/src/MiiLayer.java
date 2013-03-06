@@ -251,15 +251,19 @@ public class MiiLayer extends JFrame implements ActionListener {
 
     public void actionPerformed(ActionEvent event) {
 
+        if (event == null) {
+            return;
+        }
+
         if (event.getActionCommand().equals("Open")) {
 
-            System.out.println("user.home = "+System.getProperty("user.home"));
+            System.out.println("user.home = " + System.getProperty("user.home"));
 
             JFrame f = new JFrame();
 
             JFileChooser chooser = new JFileChooser();
             chooser.setDialogTitle("Select Image Folder");
-            chooser.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);            
+            chooser.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
             chooser.setCurrentDirectory(new File(System.getProperty("user.home")));
 
             chooser.showOpenDialog(f);
@@ -273,6 +277,10 @@ public class MiiLayer extends JFrame implements ActionListener {
 
 
         } else if (event.getActionCommand().equals("Save Layer")) {
+
+            if (miicraft == null) {
+                return;
+            }
 
             miicraft.save();
 

@@ -98,7 +98,7 @@
       <file leaf-file-name="MiiLayer.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/miiflipper/src/MiiLayer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="255" column="44" selection-start="7824" selection-end="7824" vertical-scroll-proportion="0.31778425">
+            <state line="281" column="23" selection-start="8644" selection-end="8644" vertical-scroll-proportion="0.17784257">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -597,7 +597,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/miiflipper/src/MiiLayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="255" column="44" selection-start="7824" selection-end="7824" vertical-scroll-proportion="0.31778425">
+        <state line="281" column="23" selection-start="8644" selection-end="8644" vertical-scroll-proportion="0.17784257">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
