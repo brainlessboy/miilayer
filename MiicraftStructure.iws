@@ -95,19 +95,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MiiLayer.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="MiiLayer.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/miiflipper/src/MiiLayer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="264" column="0" selection-start="8148" selection-end="8148" vertical-scroll-proportion="0.48387095">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/miiflipper/build.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="30" selection-start="2387" selection-end="2387" vertical-scroll-proportion="1.3157895">
+            <state line="260" column="46" selection-start="8031" selection-end="8031" vertical-scroll-proportion="0.41935483">
               <folding />
             </state>
           </provider>
@@ -595,16 +586,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/miiflipper/src/MiiLayer.java">
+    <entry file="file://$PROJECT_DIR$/miiflipper/build.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="264" column="0" selection-start="8148" selection-end="8148" vertical-scroll-proportion="0.48387095">
+        <state line="67" column="30" selection-start="2387" selection-end="2387" vertical-scroll-proportion="1.3157895">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/miiflipper/build.xml">
+    <entry file="file://$PROJECT_DIR$/miiflipper/src/MiiLayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="30" selection-start="2387" selection-end="2387" vertical-scroll-proportion="1.3157895">
+        <state line="260" column="46" selection-start="8031" selection-end="8031" vertical-scroll-proportion="0.41935483">
           <folding />
         </state>
       </provider>

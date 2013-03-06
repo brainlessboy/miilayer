@@ -258,7 +258,7 @@ public class MiiLayer extends JFrame implements ActionListener {
             chooser.setDialogTitle("Select Image Folder");
             chooser.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
 
-            int fch = chooser.showOpenDialog(this);
+            int fch = chooser.showOpenDialog(f);
 
             miicraft.setDirectory(chooser.getSelectedFile().getPath());
             miicraft.initiateImage();
