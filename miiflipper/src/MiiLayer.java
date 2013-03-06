@@ -6,6 +6,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
+import java.io.File;
 import java.util.Properties;
 
 public class MiiLayer extends JFrame implements ActionListener {
@@ -257,11 +258,17 @@ public class MiiLayer extends JFrame implements ActionListener {
             JFileChooser chooser = new JFileChooser();
             chooser.setDialogTitle("Select Image Folder");
             chooser.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
+            System.out.println(System.getProperty("user.home"));
+            chooser.setCurrentDirectory(new File(System.getProperty("user.home")));
 
-            int fch = chooser.showOpenDialog(f);
+            chooser.showOpenDialog(f);
 
-            miicraft.setDirectory(chooser.getSelectedFile().getPath());
-            miicraft.initiateImage();
+            try {
+                miicraft.setDirectory(chooser.getSelectedFile().getPath());
+                miicraft.initiateImage();
+            } catch (Exception e) {
+                System.out.println("no file set ...");
+            }
 
 
         } else if (event.getActionCommand().equals("Save Layer")) {
