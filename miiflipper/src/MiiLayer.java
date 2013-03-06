@@ -254,29 +254,14 @@ public class MiiLayer extends JFrame implements ActionListener {
 
             JFrame f = new JFrame();
 
-            String osName = System.getProperty("os.name");
-            if (osName.equalsIgnoreCase("mac os x")) {
+            JFileChooser chooser = new JFileChooser();
+            chooser.setDialogTitle("Select Image Folder");
+            chooser.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
 
-                FileDialog chooser = new FileDialog(f, "Select Image Folder ", FileDialog.LOAD);
-                System.setProperty("apple.awt.fileDialogForDirectories", "true");
-                chooser.setVisible(true);
-                chooser.setLocation(50, 50);
+            int fch = chooser.showOpenDialog(this);
 
-                miicraft.setDirectory(chooser.getDirectory() + chooser.getFile());
-                miicraft.initiateImage();
-
-            } else {
-
-                JFileChooser chooser = new JFileChooser();
-                chooser.setDialogTitle("Select Image Folder");
-                chooser.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
-
-                int fch = chooser.showOpenDialog(this);
-
-                miicraft.setDirectory(chooser.getSelectedFile().getParent());
-                miicraft.initiateImage();
-
-            }
+            miicraft.setDirectory(chooser.getSelectedFile().getPath());
+            miicraft.initiateImage();
 
 
         } else if (event.getActionCommand().equals("Save Layer")) {
