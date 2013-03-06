@@ -62,7 +62,7 @@
         
     </target>
         
-    <target name="make" depends="compile">
+    <target name="make" depends="jar">
         <delete dir="${build.home}"/>
         <delete dir="${basedir}/miiflipper"/>
         <delete file="${basedir}/temp-jar-file.jar"/>
