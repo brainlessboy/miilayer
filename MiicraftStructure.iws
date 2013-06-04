@@ -18,7 +18,7 @@
     <list default="true" id="05dfe37c-c570-4d87-964f-8987e76d7df4" name="Default" comment="" />
     <ignored path="MiicraftStructure.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/MiiLayer.java" changelist="05dfe37c-c570-4d87-964f-8987e76d7df4" time="1370372636039" ignored="false" />
+    <file path="/MiiLayer.java" changelist="05dfe37c-c570-4d87-964f-8987e76d7df4" time="1370376354479" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +103,7 @@
       <file leaf-file-name="MiiLayer.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/miiflipper/src/MiiLayer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="12" selection-start="364" selection-end="364" vertical-scroll-proportion="0.21745351">
+            <state line="267" column="57" selection-start="8329" selection-end="8329" vertical-scroll-proportion="0.32188842">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -646,7 +646,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/miiflipper/src/MiiLayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="12" selection-start="364" selection-end="364" vertical-scroll-proportion="0.21745351">
+        <state line="267" column="57" selection-start="8329" selection-end="8329" vertical-scroll-proportion="0.32188842">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

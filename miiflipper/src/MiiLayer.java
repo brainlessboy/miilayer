@@ -265,7 +265,7 @@ public class MiiLayer extends JFrame implements ActionListener {
             chooser.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
             chooser.setCurrentDirectory(new File(System.getProperty("user.home")));
 
-            chooser.showOpenDialog(this);
+            chooser.showOpenDialog(null);
 
             try {
                 miicraft.setDirectory(chooser.getSelectedFile().getPath());
