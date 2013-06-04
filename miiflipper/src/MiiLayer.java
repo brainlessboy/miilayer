@@ -20,12 +20,13 @@ public class MiiLayer extends JFrame implements ActionListener {
 
         try {
 
-            Properties props = new Properties();
-            props.put("logoString", "miiImager");
-            props.put("licenseKey", "39q5-dpgu-fat5-xz81");
-            NoireLookAndFeel.setCurrentTheme(props);
-            com.jtattoo.plaf.noire.NoireLookAndFeel.setTheme("Noire");
-            UIManager.setLookAndFeel("com.jtattoo.plaf.noire.NoireLookAndFeel");
+            //Properties props = new Properties();
+            //props.put("logoString", "miiImager");
+            //props.put("licenseKey", "39q5-dpgu-fat5-xz81");
+            //NoireLookAndFeel.setCurrentTheme(props);
+            //com.jtattoo.plaf.noire.NoireLookAndFeel.setTheme("Noire");
+            //UIManager.setLookAndFeel("com.jtattoo.plaf.noire.NoireLookAndFeel");
+            UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
 
         } catch (Exception ex) {
             ex.printStackTrace();
