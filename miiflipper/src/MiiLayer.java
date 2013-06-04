@@ -271,10 +271,13 @@ public class MiiLayer extends JFrame implements ActionListener {
             try {
                 miicraft.setDirectory(chooser.getSelectedFile().getPath());
                 miicraft.initiateImage();
+
+                miimodel.setDirectory(chooser.getSelectedFile().getPath());
+                miimodel.initiateImage();
+
             } catch (Exception e) {
                 System.out.println("no file set ...");
             }
-
 
         } else if (event.getActionCommand().equals("Save Layer")) {
 
